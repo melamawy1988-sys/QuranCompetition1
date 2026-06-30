@@ -1,0 +1,1 @@
+create table participants(id uuid primary key default gen_random_uuid(),name text,age int,parts int,national_id text unique,birth_file text,day text,hour int,created_at timestamp default now());
